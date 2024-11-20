@@ -1,0 +1,42 @@
+{
+    "info": {
+        "time": "true",
+        "date": "true",
+        "duration": "true",
+        "id": "true"
+    },
+    "read_data": {
+        "split": "true",
+        "nulls": "true",
+        "outliers": "true",
+        "standardize": "true",
+        "encode": "true",
+        "pca": "true",
+        "oversample": "true"
+    },
+    "LogisticRegression": {
+        "penalty": "true",
+        "max_iter": "true",
+        "C": "true",
+        "dual": "true",
+        "tol": "true",
+        "fit_intercept": "true",
+        "intercept_scaling": "true",
+        "solver": "true",
+        "multi_class": "true",
+        "verbose": "true",
+        "warm_start": "true"
+    },
+    "metrics": {
+        "Accuracy_train": "true",
+        "Precision_train": "true",
+        "Recall_train": "true",
+        "F1 Score_train": "true",
+        "ROC AUC_train": "true",
+        "Accuracy_test": "true",
+        "Precision_test": "true",
+        "Recall_test": "true",
+        "F1 Score_test": "true",
+        "ROC AUC_test": "true"
+    }
+}

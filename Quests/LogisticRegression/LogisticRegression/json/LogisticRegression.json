@@ -1,0 +1,106 @@
+{
+    "info": {
+        "time": [
+            "15:12:52"
+        ],
+        "date": [
+            "10/06/24"
+        ],
+        "duration": [
+            "27.81 s"
+        ],
+        "id": [
+            1
+        ]
+    },
+    "read_data": {
+        "split": [
+            "train"
+        ],
+        "nulls": [
+            "mix"
+        ],
+        "outliers": [
+            "cap"
+        ],
+        "standardize": [
+            "standardize"
+        ],
+        "encode": [
+            "Binary"
+        ],
+        "pca": [
+            "0.9"
+        ],
+        "oversample": [
+            "None"
+        ]
+    },
+    "LogisticRegression": {
+        "penalty": [
+            "l2"
+        ],
+        "max_iter": [
+            "100"
+        ],
+        "C": [
+            "1"
+        ],
+        "dual": [
+            "False"
+        ],
+        "tol": [
+            "0.0"
+        ],
+        "fit_intercept": [
+            "True"
+        ],
+        "intercept_scaling": [
+            "1"
+        ],
+        "solver": [
+            "lbfgs"
+        ],
+        "multi_class": [
+            "auto"
+        ],
+        "verbose": [
+            "0"
+        ],
+        "warm_start": [
+            "False"
+        ]
+    },
+    "metrics": {
+        "Accuracy_train": [
+            0.7127421237119895
+        ],
+        "Precision_train": [
+            0.4968105017248459
+        ],
+        "Recall_train": [
+            0.038507462686567163
+        ],
+        "F1 Score_train": [
+            0.07146912798611436
+        ],
+        "ROC AUC_train": [
+            0.6292222982562736
+        ],
+        "Accuracy_test": [
+            0.711732019293142
+        ],
+        "Precision_test": [
+            0.4736621951788176
+        ],
+        "Recall_test": [
+            0.03667377398720682
+        ],
+        "F1 Score_test": [
+            0.068066497840918
+        ],
+        "ROC AUC_test": [
+            0.622134050089033
+        ]
+    }
+}

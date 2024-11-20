@@ -1,0 +1,41 @@
+{
+    "info": {
+        "time": "true",
+        "date": "true",
+        "duration": "true",
+        "id": "true"
+    },
+    "read_data": {
+        "split": "true",
+        "nulls": "true",
+        "outliers": "true",
+        "standardize": "true",
+        "encode": "true",
+        "pca": "true",
+        "oversample": "true"
+    },
+    "XGBClassifier": {
+        "subsample": "true",
+        "scale_pos_weight": "true",
+        "reg_lambda": "true",
+        "reg_alpha": "true",
+        "n_estimators": "true",
+        "max_depth": "true",
+        "learning_rate": "true",
+        "gamma": "true",
+        "colsample_bytree": "true",
+        "objective": "true"
+    },
+    "metrics": {
+        "Accuracy_train": "true",
+        "Precision_train": "true",
+        "Recall_train": "true",
+        "F1 Score_train": "true",
+        "ROC AUC_train": "true",
+        "Accuracy_test": "true",
+        "Precision_test": "true",
+        "Recall_test": "true",
+        "F1 Score_test": "true",
+        "ROC AUC_test": "true"
+    }
+}

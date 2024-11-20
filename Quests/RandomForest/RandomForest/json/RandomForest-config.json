@@ -1,0 +1,45 @@
+{
+    "info": {
+        "time": "true",
+        "date": "true",
+        "duration": "true",
+        "id": "true"
+    },
+    "read_data": {
+        "split": "true",
+        "nulls": "true",
+        "outliers": "true",
+        "standardize": "true",
+        "encode": "true",
+        "pca": "true",
+        "oversample": "true"
+    },
+    "RandomForestClassifier": {
+        "n_estimators": "true",
+        "min_samples_split": "true",
+        "min_samples_leaf": "true",
+        "max_features": "true",
+        "max_depth": "true",
+        "class_weight": "true",
+        "bootstrap": "true",
+        "criterion": "true",
+        "min_weight_fraction_leaf": "true",
+        "min_impurity_decrease": "true",
+        "oob_score": "true",
+        "verbose": "true",
+        "warm_start": "true",
+        "ccp_alpha": "true"
+    },
+    "metrics": {
+        "Accuracy_train": "true",
+        "Precision_train": "true",
+        "Recall_train": "true",
+        "F1 Score_train": "true",
+        "ROC AUC_train": "true",
+        "Accuracy_test": "true",
+        "Precision_test": "true",
+        "Recall_test": "true",
+        "F1 Score_test": "true",
+        "ROC AUC_test": "true"
+    }
+}
